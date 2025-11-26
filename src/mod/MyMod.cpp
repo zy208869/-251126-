@@ -38,8 +38,7 @@ bool MyMod::disable() {
     return true;
 }
 bool MyMod::unload() {
-    getSelf().getLogger().debug("unloading...");
-    // Code for disabling the mod goes here.
+    getSelf().getLogger().debug("Unloading...");
     return true;
 }
 } // namespace my_mod
