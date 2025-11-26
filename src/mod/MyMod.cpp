@@ -27,7 +27,7 @@ bool MyMod::disable() {
     return true;
 }
 
-bool MyMod:unload(){
+bool MyMod::unload(){
     getSelf().getLogger().debug("unloading...");
     return true;
 }
