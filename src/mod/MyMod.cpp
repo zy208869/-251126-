@@ -27,6 +27,11 @@ bool MyMod::disable() {
     return true;
 }
 
+bool MyMod:unload(){
+    getSelf().getLogger().debug("unloading...");
+    return true;
+}
+
 } // namespace my_mod
 
 LL_REGISTER_MOD(my_mod::MyMod, my_mod::MyMod::getInstance());
