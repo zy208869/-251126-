@@ -1,18 +1,11 @@
 #include "mod/MyMod.h"
+
 #include "ll/api/mod/RegisterHelper.h"
-#include "MyMod.h"
-#include "Config.h"
-#include <ll/api/Config.h>
-#include <ll/api/command/CommandHandle.h>
-#include <ll/api/command/CommandRegistrar.h>
-#include <ll/api/data/KeyValueDB.h>
-#include <ll/api/event/EventBus.h>
-#include <ll/api/event/player/PlayerJoinEvent.h>
-#include <ll/api/event/player/PlayerUseItemEvent.h>
-#include <ll/api/service/Bedrock.h>
-#include <mc/server/commands/CommandOrigin.h>
-#include <mc/server/commands/CommandOutput.h>
-#include <mc/world/actor/player/Player.h>
+
+
+
+
+
 namespace my_mod {
 
 MyMod& MyMod::getInstance() {
