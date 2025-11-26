@@ -1,6 +1,6 @@
 #include "mod/MyMod.h"
 #include "ll/api/mod/RegisterHelper.h"
-#include "MyPMod.h"
+#include "MyMod.h"
 #include "Config.h"
 #include <ll/api/Config.h>
 #include <ll/api/command/CommandHandle.h>
