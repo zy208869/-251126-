@@ -21,10 +21,10 @@ public:
 
     /// @return True if the mod is disabled successfully.
     bool disable();
-
+    bool unload();
     // TODO: Implement this method if you need to unload the mod.
     // /// @return True if the mod is unloaded successfully.
-bool unload();
+
 
 private:
     ll::mod::NativeMod& mSelf;
